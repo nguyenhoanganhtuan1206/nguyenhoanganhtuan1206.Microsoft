@@ -1,0 +1,41 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
